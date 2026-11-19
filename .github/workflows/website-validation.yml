@@ -23,5 +23,5 @@ jobs:
       - name: Check script.js
         run: test -f script.js
 
-      - name: Check images/logo.png
-        run: test -f images/logo.png
+      - name: Check images/logo.jpg
+        run: test -f images/logo.jpg

@@ -7,7 +7,7 @@ on:
 
 jobs:
   validate-website:
-    name: Check Website Files
+    name: Check Website
     runs-on: ubuntu-latest
 
     steps:

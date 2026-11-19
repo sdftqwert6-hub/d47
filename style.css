@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f5f9;
+    color: #263445;
+    text-align: center;
+}
+
+header {
+    background: #193b63;
+    color: white;
+    padding: 25px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+main {
+    margin: 60px auto;
+    padding: 30px;
+    max-width: 600px;
+    background: white;
+    border-radius: 12px;
+}
+
+button {
+    background: #2878d0;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}

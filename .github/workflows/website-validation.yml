@@ -1,0 +1,27 @@
+name: Website Validation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-website:
+    name: Check Website Files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get source code
+        uses: actions/checkout@v4
+
+      - name: Check index.html
+        run: test -f index.html
+
+      - name: Check style.css
+        run: test -f style.css
+
+      - name: Check script.js
+        run: test -f script.js
+
+      - name: Check images/logo.png
+        run: test -f images/logo.png
